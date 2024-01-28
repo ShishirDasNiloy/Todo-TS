@@ -1,0 +1,91 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #365486;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+li {
+  padding: 10px;
+}
+
+label {
+  color: #365486;
+  text-transform: capitalize;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.delete-button {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #f44336;
+  cursor: pointer;
+  border-radius: 3px;
+  float: right;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0 5px;
+}
+
+.delete-button:hover {
+  border: 1px solid #f44336;
+}
+
+.add-button {
+  background-color: #fff;
+  color: #3ccf4e;
+  border: 1px solid #3ccf4e;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-button:hover {
+  background-color: #3ccf4e;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #365486;
+  border-radius: 4px;
+  outline: none;
+  width: 50%;
+}
+input[type="text"]:focus {
+  border: 1px solid #7fc7d9;
+  color: #365486;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 80%;
+}
